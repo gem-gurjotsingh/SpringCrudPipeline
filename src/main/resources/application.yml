@@ -1,0 +1,19 @@
+spring:
+  # ------------- Database configuration, to be update accordingly --------------
+  jpa:
+    database-platform: org.hibernate.dialect.PostgreSQL9Dialect
+    generate-ddl: true
+    show-sql: true
+    hibernate:
+      default_schema: public
+      ddl-auto: update
+    properties:
+      hibernate.dialect: org.hibernate.dialect.PostgreSQLDialect
+  datasource.:
+    driver-class-name: org.postgresql.Driver
+    url: jdbc:postgresql://localhost:5432/employee_data
+    username: postgres
+    password: postgres
+
+server:
+  port: 8080

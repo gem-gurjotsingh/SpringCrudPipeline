@@ -108,6 +108,7 @@
                     <excludes>
                         <exclude>**/bean/*</exclude>
                         <exclude>**/repository/*</exclude>
+                        <exclude>com/xadmin/SpringBootCrud/SpringBootCrudApplication.class</exclude>
                     </excludes>
                 </configuration>
                 <executions>
